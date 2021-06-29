@@ -1,17 +1,16 @@
 @font-face {
   font-family: 'icomoon';
-  src: url('fonts/icomoon.eot?8h2ldx');
-  src: url('fonts/icomoon.eot?8h2ldx#iefix') format('embedded-opentype'),
-    url('icomoon.ttf?8h2ldx') format('truetype'),
-    url('icomoon.woff?8h2ldx') format('woff'),
-    url('icomoon.svg?8h2ldx#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?a6gsmb');
+  src:  url('fonts/icomoon.eot?a6gsmb#iefix') format('embedded-opentype'),
+  url('icomoon.woff?a6gsmb') format('woff'),
+  url('icomoon.svg?a6gsmb#icomoon') format('svg');
+  url('icomoon.ttf?a6gsmb') format('truetype'),
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^='icon-'],
-[class*=' icon-'] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: never;
@@ -26,44 +25,44 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-iconfinder_1820484_brand_facebook_logo_network_social_icon:before {
-  content: '\e900';
+.icon-icon-facebook:before {
+  content: "\e900";
 }
-.icon-iconfinder_211928_social_youtube_icon:before {
-  content: '\e901';
+.icon-icon-youtube:before {
+  content: "\e901";
 }
-.icon-iconfinder_981077_basic_close_exit_out_x_icon .path1:before {
-  content: '\e908';
+.icon-icon-close .path1:before {
+  content: "\e908";
   color: rgb(0, 0, 0);
 }
-.icon-iconfinder_981077_basic_close_exit_out_x_icon .path2:before {
-  content: '\e909';
+.icon-icon-close .path2:before {
+  content: "\e909";
   margin-left: -1em;
   color: rgb(255, 255, 255);
 }
-.icon-iconfinder_981077_basic_close_exit_out_x_icon .path3:before {
-  content: '\e90a';
+.icon-icon-close .path3:before {
+  content: "\e90a";
   margin-left: -1em;
-  color: rgb(255, 255, 255);
+  color: rgb(168, 14, 14);
 }
-.icon-iconfinder_104466_instagram_icon:before {
-  content: '\e902';
+.icon-icon-instagram:before {
+  content: "\e902";
 }
-.icon-iconfinder_3643769_building_home_house_main_menu_icon:before {
-  content: '\e903';
+.icon-icon-menu:before {
+  content: "\e903";
 }
-.icon-iconfinder_103615_mail_icon:before {
-  content: '\e904';
+.icon-icon-mail:before {
+  content: "\e904";
 }
-.icon-iconfinder_5305166_call_chat_mobile_whatsapp_whatsapp-logo_icon:before {
-  content: '\e906';
+.icon-icon-whats:before {
+  content: "\e906";
 }
-.icon-iconfinder_1737383_gps_location_locationpin2_pin_icon:before {
-  content: '\e907';
+.icon-icon-gps:before {
+  content: "\e907";
 }
-.icon-iconfinder_2849835_phone_telephone_cell_call_communication_icon:before {
-  content: '\e90b';
+.icon-icon-phone:before {
+  content: "\e90b";
 }
-.icon-iconfinder_3643763_list_mark_menu_option_sign_icon:before {
-  content: '\e90c';
+.icon-icon-menu-2:before {
+  content: "\e90c";
 }
