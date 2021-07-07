@@ -10,6 +10,9 @@
     <!-- ICONES -->
     <link rel="stylesheet" href="assets/fonts/style.css" />
 
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css" />
 
@@ -20,6 +23,8 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+
+    
   </head>
   <body>
     <header id="header">
@@ -128,51 +133,60 @@
         </div>
       </section>
 
+      <div class="divider-1"></div>
+
       <!-- TESTIMONIALS -->
       <section class="section" id="testimonials">
-        <div class="container grid">
+        <div class="container">
           <header>
             <h2 class="title">Depoimentos dos nossos clientes</h2>
           </header>
-          <div class="testimonials">
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam rem dolor incidunt. 
-                </p>
-                <cite>
-                  <img src="https://randomuser.me/api/portraits/women/37.jpg" alt="Foto de Magda Barcelos">
-                  Magda Barcelos
-                </cite>
-              </blockquote>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam rem dolor incidunt. 
+                  </p>
+                  <cite>
+                    <img src="https://randomuser.me/api/portraits/women/37.jpg" alt="Foto de Magda Barcelos">
+                    Magda Barcelos
+                  </cite>
+                </blockquote>
+                
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam rem dolor incidunt. 
+                  </p>
+                  <cite>
+                    <img src="https://randomuser.me/api/portraits/men/91.jpg" alt="Foto de José Melo">
+                    José Melo
+                  </cite>
+                </blockquote>
+                
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam rem dolor incidunt. 
+                  </p>
+                  <cite>
+                    <img src="https://randomuser.me/api/portraits/women/14.jpg" alt="Foto de Adriana Souza">
+                    Adriana Souza
+                  </cite>
+                </blockquote>
+            </div>
+           
               
             </div>
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam rem dolor incidunt. 
-                </p>
-                <cite>
-                  <img src="https://randomuser.me/api/portraits/men/91.jpg" alt="Foto de José Melo">
-                  José Melo
-                </cite>
-              </blockquote>
-              
-            </div>
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam rem dolor incidunt. 
-                </p>
-                <cite>
-                  <img src="https://randomuser.me/api/portraits/women/14.jpg" alt="Foto de Adriana Souza">
-                  Adriana Souza
-                </cite>
-              </blockquote>
-              
+            <!-- if we need pagination-->
+            <div class="swiper-pagination">
+
             </div>
           </div>
         </div>
@@ -180,8 +194,44 @@
 
 
       <!-- CONTACT -->
-    </main>
+      <section class="section" id="contact">
+        <div class="container grid">
 
+
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p> Entre em contato com a ABGVengenharia, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.</p>
+            <a href="https://api.whatsapp.com/send?phone=+5584986094675&text=Oi! Gostaria de fazer um orçamento." class="button"
+            target="_blanck"
+            ><i class=""></i> Entrar em contato</a>
+          </div>
+
+
+          <div class="links">
+            <ul class="grid">
+              <li>(84) 98609-4675</li>
+              <li> R. São João, 387</li>
+              <li>contato@abgv.com</li>
+              
+            </ul>
+          </div>
+
+
+
+        </div>
+      </section>
+
+
+    </main>
+    
+    <!-- SWIPER-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+  <!-- SCROLL REVEAL-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main.js -->
     <script src="main.js"></script>
   </body>
 </html>
