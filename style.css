@@ -146,6 +146,9 @@ body {
 .logo-alt span {
   color: var(--body-color);
 }
+span {
+  color: var(--base-color);
+}
 
 /*------ NAVIGATION ------------------------------*/
 nav {
